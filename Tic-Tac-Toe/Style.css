@@ -1,0 +1,139 @@
+.ContenedorJuego{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    /* Esto los pone uno al lado del otro */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Como cada div vale 200 y quiero 3 filas y columnas, aqui debe decir 600*/
+    width: 610px;
+    height: 610px;
+    background-color: black;
+}
+
+.grid div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.playerX{
+    background-image: url('x.jpg');
+}
+
+.playerO{
+    background-image: url('o.jpg');
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, .2);;
+    background: center / cover url('universe.jpg') no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+h3{
+    color: rgba(0, 0, 0, .2);;
+    background: center / cover url('universe.jpg') no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+    h1{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        font-size: 35px;
+        }
+    .ContenedorJuego{
+        width: 600px;
+        position: absolute;
+        top: 150px;
+        left: 300px;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1, h3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    }
+    .ContenedorJuego{
+    width: 610px;
+    left: 0;
+    align-items: center;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 610px;
+        height: 610px;
+    }
+    .grid div{
+        width: 200px;
+        height: 200px;
+        background-size: auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1, h3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    }
+    .ContenedorJuego{
+    width: 310px;
+    left: 0;
+    align-items: center;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 310px;
+        height: 310px;
+    }
+    .grid div{
+        width: 100px;
+        height: 100px;
+        background-size: 100px;
+    }
+}
+@media screen and (max-width: 320px) {
+    h1, h3{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    }
+    .ContenedorJuego{
+        position: absolute;
+        width: 310px;
+        left: 0;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 310px;
+        height: 310px;
+    }
+    .grid div{
+        width: 100px;
+        height: 100px;
+        background-size: 100px;
+    }
+}

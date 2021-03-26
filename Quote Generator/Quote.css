@@ -1,0 +1,177 @@
+body {
+    background-color: #1a0321;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+}
+
+.containerBoton{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    border: solid 1px white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition: 1s;
+}
+
+.contenedorOutput{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 350px;
+}
+
+#output {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.containerImage{
+    display: flex;
+    justify-content: center;
+}
+
+.Imagen{
+    width: 800px;
+    height: 400px;
+    background-image: url('Wallpapers/1.jpg');
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+.Imagen2{
+    width: 800px;
+    height: 400px;
+    background-image: url('Wallpapers/2.jpg');
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+.Imagen3{
+    width: 800px;
+    height: 400px;
+    background-image: url('Wallpapers/3.jpg');
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+.Imagen4{
+    width: 800px;
+    height: 400px;
+    background-image: url('Wallpapers/4.jpg');
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+.Imagen5{
+    width: 800px;
+    height: 400px;
+    background-image: url('Wallpapers/5.jpg');
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+.Imagen6{
+    width: 800px;
+    height: 400px;
+    background-image: url('Wallpapers/6.jpg');
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1023px) {
+    .containerImage{
+        padding: 0 1em;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1{
+    font-size: 40px;
+    }
+    .containerImage{
+        display: flex;
+        justify-content: center;
+    }
+    .Imagen, .Imagen2, .Imagen3, .Imagen4, .Imagen5, .Imagen6{
+        width: 100%;
+        background-size: 500px 400px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .contenedorOutput{
+        margin-left: 0;
+        width: 100%;
+        }
+    #output{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1{
+    font-size: 25px;
+        }
+    .Imagen, .Imagen2, .Imagen3, .Imagen4, .Imagen5, .Imagen6{
+        width: 100%;
+        background-size: 400px 300px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .contenedorOutput{
+        width: 100%;
+        margin-left: 0;
+        }
+    #output{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    h1{
+        font-size: 20px;
+        }
+    .Imagen, .Imagen2, .Imagen3, .Imagen4, .Imagen5, .Imagen6{
+        width: 100%;
+        background-size: 250px 200px;
+        margin: 0;
+    }
+    .btn{
+        font-size: 15px;
+        margin: 0;
+        padding: 5px;
+    }
+    .contenedorOutput{
+    width: 100%;
+    margin-left: 0;
+    }
+    #output{
+        font-size: 12px;
+    }
+}

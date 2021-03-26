@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Ranchers', cursive;
+    font-size: 60px;
+    color: darkgreen;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Ranchers', cursive;
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+
+.grid{
+    margin: 40px;
+    padding: 40px;
+}
+
+.BabyYoda{
+    background-image: url('baby-yoda.png');
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    /* Para poner el BabyYoda abajo */
+    position: absolute;
+    bottom: 0px;
+}
+
+.obstacle{
+    background-image: url('storm.png');
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#audio{
+    display: none
+    }
+
+#Puntos{
+    font-family: 'Ranchers', cursive;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+    h1, h2, #Puntos{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        font-size: 35px;
+        }
+}
+@media screen and (max-width: 767px) {
+    h1, h2, #Puntos{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    }
+    .BabyYoda{
+        background-image: url('baby-yoda.png');
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        /* Para poner el BabyYoda abajo */
+        position: absolute;
+        bottom: 0px;
+    }
+    .obstacle{
+        background-image: url('storm.png');
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        bottom: 0px;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1, h2, #Puntos{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    }
+    .BabyYoda{
+        background-image: url('baby-yoda.png');
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        /* Para poner el BabyYoda abajo */
+        position: absolute;
+        bottom: 0px;
+    }
+    .obstacle{
+        background-image: url('storm.png');
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        bottom: 0px;
+    }
+}
+@media screen and (max-width: 320px) {
+    h1, h2, #Puntos{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    }
+    .BabyYoda{
+        background-image: url('baby-yoda.png');
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        /* Para poner el BabyYoda abajo */
+        position: absolute;
+        bottom: 0px;
+    }
+    .obstacle{
+        background-image: url('storm.png');
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        bottom: 0px;
+    }
+}

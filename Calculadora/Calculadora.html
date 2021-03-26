@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" type="image/png" href="calculator.png">
+    <link rel="stylesheet" href="Calculadora.css"></link>
+</head>
+<body>
+    <h1>Mi primera calculadora</h1><br>
+    <div class="contenedor">
+    <form class="formulario" id="miFormulario">
+        <label class="cifra">Cifra 1</label>
+        <input class="cifraBoton" type="number" id="valor1" placeholder="Número">
+        <button class="botonLimpiar"onclick="limpiar()">Limpiar</button>
+       
+        <br>
+        <br>
+
+        <label class="cifra">Cifra 2</label>
+        <input type="number" class="cifraBoton" id="valor2" placeholder="Número">
+       
+        <br>
+        <br>
+
+        <button type="button" class="boton" onclick="sumar()">+</button>
+        <button type="button" class="boton" onclick="restar()">-</button>
+        <button type="button" class="boton" onclick="multiplicar()">*</button>
+        <button type="button" class="boton" onclick="dividir()">/</button>
+        <p class="cajaResultado">Resultado: <spanid class="resultado" id="resultado">0</span></p>
+        </form>       
+    </div>
+    <script src = "Calculadora.js"></script>
+</body>
+</html>
