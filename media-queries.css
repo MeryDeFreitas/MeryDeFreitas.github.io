@@ -2,11 +2,16 @@
     .home-main section{
         height: 500px;
     }    
+    .post-container{
+        display: block;
+    }
 }
 
 @media (max-width: 600px){
     .home-main section{
         height: 500px;
     }
-    
+    .post-container{
+        display: block;
+    }
 }
