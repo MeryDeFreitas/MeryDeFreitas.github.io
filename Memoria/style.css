@@ -1,0 +1,91 @@
+.grid {
+    /* El contenedor es flexible al padre (En este caso es al body) */
+    display:flex;
+    /* Se usa el wrap para contener y evitar que las cosas se caigan */
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+
+body{
+    background-color: white;
+}
+h1{
+    font-family: Lucida Sans;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    
+}
+
+div{
+    font-family: Lucida Sans;
+    text-align: center;
+    padding: 0%;
+    color: black;
+}
+
+h3{
+    font-family: Lucida Sans;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    color: black
+}
+
+.container{
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    }
+
+@media screen and (max-width: 1023px) {
+    h1{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        }
+    .container{
+        width: 200px;
+        position: absolute;
+        top: 150px;
+        left: 300px;
+        }
+}
+@media screen and (max-width: 767px) {
+    h1{
+    text-align: center;
+    font-size: 10x;
+    }
+    .container{
+    width: 300px;
+    left: 100px;
+    top: 200px;
+    align-items: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    }
+    .container{
+    width: 300px;
+    left: 0;
+    align-items: center;
+    }
+}
+@media screen and (max-width: 320px) {
+    h1{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+        }
+    .container{
+        width: 300px;
+        left: 0;
+        align-items: center;
+    }
+}
