@@ -5,8 +5,11 @@
     .home-main-button{
         margin-left: -10px;
     }   
+    .Menu{
+        justify-content: center;
+    }
     .MiBlog{
-        font-size: 12px;
+        font-size: 15px;
         margin-right: 10px;
     }
     .contenedorPerfil{
@@ -37,8 +40,11 @@
     .home-main-button{
         margin-left: -10px;
     }   
+    .Menu{
+        justify-content: center;
+    }
     .MiBlog{
-        font-size: 12px;
+        font-size: 15px;
         margin-right: 10px;
     }
     .contenedorPerfil{
