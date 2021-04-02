@@ -1,12 +1,12 @@
 @media (max-width: 900px){
     .home-main section{
-        height: 600px;
+        height: 500px;
     }    
 }
 
 @media (max-width: 600px){
     .home-main section{
-        height: 600px;
+        height: 500px;
     }
     
 }
