@@ -2,8 +2,24 @@
     .home-main section{
         height: 500px;
     }    
+    .MiBlog{
+        margin-right: 0;
+    }
+    .contenedorPerfil{
+        display: block;
+    }
+    .contenedorPerfil img{
+        width: 100%;
+    }
     .post-container{
         display: block;
+        max-width: 100%;
+    }
+    .Dibujo-container{
+        display: block;
+    }
+    .Dibujo-container img{
+        margin-left: 100px;
     }
 }
 
@@ -11,7 +27,23 @@
     .home-main section{
         height: 500px;
     }
+    .MiBlog{
+        margin-right: 0;
+    }
+    .contenedorPerfil{
+        display: block;
+    }
+    .contenedorPerfil img{
+        width: 100%;
+    }
     .post-container{
         display: block;
+        max-width: 100%;
+    }
+    .Dibujo-container{
+        display: block;
+    }
+    .Dibujo-container img{
+        margin-left: 50px;
     }
 }
