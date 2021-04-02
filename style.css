@@ -35,7 +35,7 @@ h1{
 
 .MiBlog{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     text-align: right;
     text-decoration: underline;
     color: #501A63;
@@ -44,7 +44,7 @@ h1{
 }
 
 .MiBlog a:hover{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .Menu{
