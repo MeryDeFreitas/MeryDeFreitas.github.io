@@ -1,8 +1,12 @@
 @media (max-width: 900px){
     .home-main section{
         height: 520px;
-    }    
+    } 
+    .home-main-button{
+        margin-left: -10px;
+    }   
     .MiBlog{
+        font-size: 12px;
         margin-right: 10px;
     }
     .contenedorPerfil{
@@ -21,13 +25,20 @@
     .Dibujo-container img{
         margin-left: 100px;
     }
+    footer section{
+        justify-content:center;
+    }
 }
 
 @media (max-width: 600px){
     .home-main section{
         height: 520px;
     }
+    .home-main-button{
+        margin-left: -10px;
+    }   
     .MiBlog{
+        font-size: 12px;
         margin-right: 10px;
     }
     .contenedorPerfil{
@@ -45,5 +56,8 @@
     }
     .Dibujo-container img{
         margin-left: 50px;
+    }
+    footer section{
+        justify-content:center;
     }
 }
