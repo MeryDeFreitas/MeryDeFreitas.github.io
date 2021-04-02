@@ -1,3 +1,3 @@
 # MeryDeFreitas.github.io
 
-New Website 
+New Website with simpler design and code
