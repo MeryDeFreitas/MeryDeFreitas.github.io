@@ -1,9 +1,9 @@
 @media (max-width: 900px){
     .home-main section{
-        height: 500px;
+        height: 520px;
     }    
     .MiBlog{
-        margin-right: 0;
+        margin-right: 10px;
     }
     .contenedorPerfil{
         display: block;
@@ -25,10 +25,10 @@
 
 @media (max-width: 600px){
     .home-main section{
-        height: 500px;
+        height: 520px;
     }
     .MiBlog{
-        margin-right: 0;
+        margin-right: 10px;
     }
     .contenedorPerfil{
         display: block;
