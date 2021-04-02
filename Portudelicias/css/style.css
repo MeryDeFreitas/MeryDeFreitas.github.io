@@ -1,0 +1,223 @@
+/* Variables */
+
+:root{
+    --darkpink-color: #F50CD0;
+    --lightpink-color: #FF90E7;
+    --white-color: white;
+    --black-color: #313131;
+    --space: 10px;
+    --box: 0px 0 2px 1px #e6e5e9;
+
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.brand_image img{
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    background-color:var(--darkpink-color);
+    padding: 5px;
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav li a:hover{
+    font-size: 20px;
+}
+
+.wallpaper{
+    height: 300px;
+    background-image: url("../images/Wallpaper.JPG");
+    display: flex;
+    justify-content: center;
+}
+
+.logoWallpaper{
+    height: 300px;
+    background-size: 300px;
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    margin-top: -300px;
+    margin-left: 600px;
+}
+
+.logoWallpaper img{
+    border-radius: 50%;
+}
+
+.descripcion{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.products{
+    padding: 20%;
+    display: flex;
+    margin-left: -58px;
+}
+
+.product{
+    padding: 10px;
+    margin-top: -240px;
+}
+
+.product .content{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: 0 0 2px #c1bcbc;
+}
+
+.img_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: var(--lightpink-color);
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.main_button:hover{
+    background-color: var(--darkpink-color);
+}
+
+.ImagenesCute{
+    display: flex;
+    justify-content: center;
+    padding: 10%;  
+    margin-left: 40px; 
+    margin-top: -400px;
+    text-align: center;
+}
+
+.Menciones{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    margin: 10px;
+    margin-top: -250px;
+    text-align: center;
+}
+
+.Mencion{
+    margin: 4px;
+    padding: 10px;
+    box-shadow: 0 0 2px #c1bcbc;
+}
+
+.Formulario{
+    margin-left: 655px;
+    margin-top: -160px;
+    box-shadow: 0 0 2px #c1bcbc;
+    border-radius: 6px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--white-color);
+}
+
+.NombreFormulario, .EdadFormulario{
+    margin: 5px;
+    font-size: 13px;
+}
+
+.Formulario button{
+    cursor: pointer;
+    margin-top: 6px;
+    padding: 5px;
+    border: black solid 1px;
+    border-radius: 6px;
+    background-color: var(--darkpink-color);
+}
+
+h3{
+    text-align: center;
+}
+
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+
+.modulo_pago_images{
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.data{
+    margin-top: var(--space);
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid var(--black-color);
+    /* Hace que respete el padding de la caja */
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_btn{
+    margin-top: 10px;
+}
+
+label{
+    font-size: var(--normal);
+    padding-bottom: 5px;
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #313131;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    flex-direction: end;
+}
+
+.option_contact{
+    margin-top: 10px;
+}
+
+.option_contact a{  
+    color: var(--darkpink-color);
+}

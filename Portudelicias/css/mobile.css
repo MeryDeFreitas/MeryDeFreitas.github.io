@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product{
+        margin-top: auto;
+    }
+    .descripcion{
+        padding: 4%;
+    }
+    .ImagenesCute, .Menciones{
+        display: inherit;
+    }
+    .Menciones{
+        margin-left: -55px;
+    }
+    .ImagenesCute{
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,99 @@
+.body{
+    font-family: Arial, sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.Inicio{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    width: 50px;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.Siguiendo{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Busqueda{
+    font-size: 16px;
+    width: 625px;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.Busqueda input{
+    width: 100%;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.Notificaciones img{
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.item{
+    border-radius: 5px;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.level-1{
+    grid-row-end: span 3;
+}
+
+.level-2{
+    grid-row-end: span 2;
+}
+
+.level-3{
+    grid-row-end: span 1;
+}
+
+
+
