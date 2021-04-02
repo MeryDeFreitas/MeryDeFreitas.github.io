@@ -1,9 +1,16 @@
 @media (max-width: 900px){
     .home-main section{
-        height: 500px;
-    }    
+        height: 520px;
+    } 
+    .home-main-button{
+        margin-left: -10px;
+    }   
+    .Menu{
+        justify-content: center;
+    }
     .MiBlog{
-        margin-right: 0;
+        font-size: 15px;
+        margin-right: 10px;
     }
     .contenedorPerfil{
         display: block;
@@ -21,14 +28,24 @@
     .Dibujo-container img{
         margin-left: 100px;
     }
+    footer section{
+        justify-content:center;
+    }
 }
 
 @media (max-width: 600px){
     .home-main section{
-        height: 500px;
+        height: 520px;
+    }
+    .home-main-button{
+        margin-left: -10px;
+    }   
+    .Menu{
+        justify-content: center;
     }
     .MiBlog{
-        margin-right: 0;
+        font-size: 15px;
+        margin-right: 10px;
     }
     .contenedorPerfil{
         display: block;
@@ -45,5 +62,8 @@
     }
     .Dibujo-container img{
         margin-left: 50px;
+    }
+    footer section{
+        justify-content:center;
     }
 }
