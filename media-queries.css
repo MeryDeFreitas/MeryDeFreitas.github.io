@@ -9,7 +9,7 @@
         justify-content: center;
     }
     .MiBlog{
-        font-size: 15px;
+        font-size: 20px;
         margin-right: 10px;
     }
     .contenedorPerfil{
@@ -18,9 +18,15 @@
     .contenedorPerfil img{
         width: 100%;
     }
+    h3{
+        text-align: center;
+    }
     .post-container{
         display: block;
         max-width: 100%;
+    }
+    .post-container a, p{
+        text-align: center;
     }
     .Dibujo-container{
         display: block;
@@ -44,7 +50,7 @@
         justify-content: center;
     }
     .MiBlog{
-        font-size: 15px;
+        font-size: 20px;
         margin-right: 10px;
     }
     .contenedorPerfil{
@@ -53,9 +59,15 @@
     .contenedorPerfil img{
         width: 100%;
     }
+    h3{
+        text-align: center;
+    }
     .post-container{
         display: block;
         max-width: 100%;
+    }
+    .post-container a, p{
+        text-align: center;
     }
     .Dibujo-container{
         display: block;
