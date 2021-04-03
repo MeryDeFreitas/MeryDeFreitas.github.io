@@ -35,7 +35,7 @@ h1{
 
 .MiBlog{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     text-align: right;
     text-decoration: underline;
     color: #501A63;
@@ -44,7 +44,7 @@ h1{
 }
 
 .MiBlog a:hover{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .Menu{
@@ -93,6 +93,16 @@ header a:hover{
     display: grid;
     align-items: center;
     margin-top: 150px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 6px;
+}
+
+.home-main-button:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition: 1s;
 }
 
 .home-main-button a{
@@ -152,7 +162,6 @@ h2{
     padding-left: 10px;
     max-width: 30%;
     margin-bottom: 50px;
-    width: 100%;
     text-align: center;
 }
 
