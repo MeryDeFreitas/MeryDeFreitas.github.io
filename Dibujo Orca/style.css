@@ -1,0 +1,120 @@
+:root{
+    --black: #0A0A0A;
+    --white: #fff;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Orca{
+    height: 38vmin;
+    width: 40vmin;
+    background-color: var(--black);
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.aleta-izq {
+    height: 30px;
+    width: 95px;
+    background-color: var(--black);
+    border-radius: 100%;
+    position: absolute;
+    top: 440px;
+    left: 565px;
+    transform: rotateZ(-40deg);
+}
+
+.aleta-der {
+    height: 30px;
+    width: 95px;
+    background-color: var(--black);
+    border-radius: 50%;
+    position: absolute;
+    top: 440px;
+    left: 880px;
+    transform: rotateZ(30deg);
+}
+
+.aleta{
+    height: 135px;
+    width: 30px;
+    background-color: var(--black);
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+    left: 750px;
+}
+
+.mancha1{
+    position: absolute;
+    background-color: var(--white);
+    width: 160px;
+    height: 70px;
+    left: 64px;
+    top: 232px;
+    border-bottom: #00243a 2px solid;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    overflow: hidden;
+    transform: rotateZ(30deg);
+}
+
+.mancha2{
+    position: absolute;
+    background-color: var(--white);
+    width: 160px;
+    height: 70px;
+    left: 64px;
+    top: 232px;
+    border-bottom: #00243a 2px solid;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    overflow: hidden;
+    transform: rotateZ(-30deg);
+}
+
+.mancha3{
+    position: absolute;
+    background-color: var(--white);
+    width: 80px;
+    height: 70px;
+    left: 4px;
+    top: 100px;
+    border-bottom: #00243a 2px solid;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 400%;
+    border-bottom-left-radius: 600%;
+    border-bottom-right-radius: 80%;
+    overflow: hidden;
+    transform: rotateZ(-30deg);
+}
+
+.mancha4{
+    position: absolute;
+    background-color: var(--white);
+    width: 80px;
+    height: 70px;
+    left: 205px;
+    top: 100px;
+    border-bottom: #00243a 2px solid;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 400%;
+    border-bottom-left-radius: 600%;
+    border-bottom-right-radius: 80%;
+    overflow: hidden;
+    transform: rotateZ(-60deg);
+}
