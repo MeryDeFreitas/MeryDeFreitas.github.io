@@ -114,8 +114,8 @@ header a:hover{
 
 .contenedorPerfil{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    max-width: 800px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
 }
 
 .Perfil{
